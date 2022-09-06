@@ -13,6 +13,6 @@ public class CalculateValue {
         System.out.print("Enter Second Number: ");
         int secondNumber = sc.nextInt();
 
-        if(1)
+        
     }
 }
