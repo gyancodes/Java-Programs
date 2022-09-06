@@ -7,6 +7,7 @@ class CheckEvenOdd{
         System.out.print("Enter the Number: ");
         
         int num = sc.nextInt();
+        sc.close();
 
 
         if(num % 2 == 0){
