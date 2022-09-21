@@ -13,5 +13,9 @@ public class RupeeToUsd {
 
         System.out.println("USD: " + result);
 
+        in.close();
+
     }
+
+
 }

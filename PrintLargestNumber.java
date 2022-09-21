@@ -20,6 +20,7 @@ public class PrintLargestNumber {
             System.out.println("Both are Equal10");
         }
 
+       in.close();
         
     }
 }
