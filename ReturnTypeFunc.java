@@ -7,8 +7,16 @@ public class ReturnTypeFunc{
         // int ans = sum();
         // System.out.println(ans);
 
-        String message = greet();
-        System.out.println(message);
+        // String message = greet();
+        // System.out.println(message);
+
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter your Name: ");
+        String name = in.next();
+        String greetMessage = getName(name);
+        System.out.println(getName(greetMessage));
+        in.close();
+
     }
 
     // Int Return Type
@@ -32,5 +40,8 @@ public class ReturnTypeFunc{
 
 
      // Passing arguments
-
+     static String getName(String name){
+        String message = "Hello" + name;
+        return message;
+     }
 }
